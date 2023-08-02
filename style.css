@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  background-color: rgb(213, 213, 246);
+}
+.logo {
+  margin-right: auto;
+  font-weight: normal;
+}
+.info {
+  text-decoration: none;
+}
+.info li {
+  display: inline-block;
+}
+.info li a {
+  padding: 20px 20px;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+.info li a:hover {
+  color: aqua;
+}
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: blue;
+}
